@@ -3,7 +3,7 @@
     "id": 1,
     "num": "001",
     "name": "เสื้อยืดกางเกงขาสั้น",
-    "img": "https://github.com/ketthidarat/lookingGreat/blob/master/asset/images/liliana.png",
+    "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/p1.jpg",
     "type": [
       "100.0 บาท"
     ],
@@ -27,7 +27,7 @@
     "id": 2,
     "num": "002",
     "name": "เสื้อไหมพรม",
-    "img": "https://github.com/ketthidarat/lookingGreat/blob/master/asset/images/diao.png",
+    "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/p2.jpg",
     "type": [
       "200.0 บาท"
     ],
@@ -51,7 +51,7 @@
     "id": 3,
     "num": "003",
     "name": "กางเกงยีนขาดเข่า",
-    "img": "https://github.com/ketthidarat/lookingGreat/blob/master/asset/images/annette.png",
+    "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/p3.jpg",
     "type": [
       "350.0 บาท"
     ],
@@ -75,7 +75,7 @@
     "id": 4,
     "num": "004",
     "name": "กางเกงยีน",
-    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/illumia.png",
+    "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/p4.jpg",
     "type": [
       "450.0 บาท"
     ],
@@ -99,7 +99,7 @@
     "id": 5,
     "num": "005",
     "name": "กระโปรงลายสก๊อต",
-    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/krixi.png",
+    "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/p5.jpg",
     "type": [
       "260.0 บาท"
     ],
@@ -123,7 +123,7 @@
     "id": 6,
     "num": "006",
     "name": "ชุดราตรีสีแดง",
-    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/natalya.png",
+    "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/p6.jpg",
     "type": [
       "400.0 บาท"
     ],
@@ -148,7 +148,7 @@
     "num": "007",
     "name": "ชุดเดรส",
 
-    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/sephera.png",
+    "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/p7.jpg",
     "type": [
       "500.0 บาท"
     ],
@@ -172,7 +172,7 @@
     "id": 8,
     "num": "008",
     "name": "สูทดำ",
-    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/D'Arcy.png",
+    "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/p8.jpg",
     "type": [
       "1000.0 บาท"
     ],
@@ -197,7 +197,7 @@
     "id": 9,
     "num": "009",
     "name": "สูทสีกรม",
-    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/Aleister.png",
+    "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/p9.jpg",
 
     "type": [
       "1100.0 บาท"
