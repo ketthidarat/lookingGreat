@@ -2,11 +2,10 @@
     "pokemon": [{
       "id": 1,
       "num": "001",
-      "name": "ชื่อร้าน : เสื้อผ้าแฟชั่น",
+      "name": "เสื้อผ้าแฟชั่น",
       "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/s1.jpg",
-      "type": [
-        "เบอร์โทรติดต่อ : 089-000000000"
-      ],
+      "type": 
+        "เบอร์โทรติดต่อ : 089-000000000",
       "height": "ที่อยู่ร้าน : 55/555 xxxxxxxxxx",
       "weight": "Facebook : เสื้อผ้าแฟชั่น",
       "candy": "Bulbasaur Candy",
@@ -16,9 +15,9 @@
       "avg_spawns": 69,
       "spawn_time": "20:00",
       "multipliers": [1.58],
-      "weaknesses": [
+      "weaknesses": 
         "E-mail : panara@gmail.com"
-      ],
+      ,
       "next_evolution": [{
         "num": "001",
         "name": "สีแดง"
@@ -26,7 +25,7 @@
     }, {
       "id": 2,
       "num": "002",
-      "name": "ชื่อร้าน : เสื้อผ้าแฟชั่นวาริน",
+      "name": "เสื้อผ้าแฟชั่นวาริน",
       "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/s2.jpg",
       "type": [
         "เบอร์โทรติดต่อ : 086-000000000"
@@ -50,7 +49,7 @@
     },{
       "id": 3,
       "num": "003",
-      "name": "ชื่อร้าน : เสื้อผ้าแฟชั่นเกาหลี",
+      "name": "เสื้อผ้าแฟชั่นเกาหลี",
       "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/s3.jpg",
       "type": [
         "350.0 บาท"
@@ -74,7 +73,7 @@
     },{
       "id": 4,
       "num": "004",
-      "name": "ชื่อร้าน : เสื้อผ้าแฟชั่นญี่ปุ่น",
+      "name": "เสื้อผ้าแฟชั่นญี่ปุ่น",
       "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/s4.jpg",
       "type": [
         "450.0 บาท"
@@ -98,7 +97,7 @@
     },{
       "id": 5,
       "num": "005",
-      "name": "ชื่อร้าน : เสื้อผ้า",
+      "name": "เสื้อผ้า",
       "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/s5.jpg",
       "type": [
         "เบอร์โทรติดต่อ : 089-000000000"
@@ -122,7 +121,7 @@
     },{
       "id": 6,
       "num": "006",
-      "name": "ชื่อร้าน : เสื้อผ้าแฟชั่นญี่ปุ่น",
+      "name": "เสื้อผ้าแฟชั่นญี่ปุ่น",
       "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/p6.jpg",
       "type": [
         "เบอร์โทรติดต่อ : 089-000000000"

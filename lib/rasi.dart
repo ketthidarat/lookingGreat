@@ -62,7 +62,7 @@ class Pokemon {
     num = json['num'];
     name = json['name'];
     img = json['img'];
-    type = json['type'].cast<String>();
+    type = json['type'];
     height = json['height'];
     weight = json['weight'];
     candy = json['candy'];
@@ -72,7 +72,7 @@ class Pokemon {
     avgSpawns = json['avg_spawns'].toString();
     spawnTime = json['spawn_time'];
     multipliers = json['multipliers']?.cast<double>();
-    weaknesses = json['weaknesses'].cast<String>();
+    weaknesses = json['weaknesses'];
     if (json['next_evolution'] != null) {
       nextEvolution = new List<NextEvolution>();
       json['next_evolution'].forEach((v) {

@@ -23,18 +23,20 @@ class YearDetail extends StatelessWidget {
                   SizedBox(
                     height: 100.0,
                   ),
-                  Text(
+                 /* Text(
                     pokemon.name,
                     style:
                         TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
-                  ),
+                  ),*/
                   Text("${pokemon.height}"),
+                  
+                  Text("${pokemon.type}"),
+                  Text("${pokemon.weaknesses}"),
                   Text("${pokemon.weight}"),
-                  Text(
-                    "ปีสมพงศ์",
+                   // "ปีสมพงศ์",
                     //style: TextStyle(fontWeight: FontWeight.bold),
-                  ),
-                  Row(
+                  //),
+                 /* Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: pokemon.type
                         .map((t) => FilterChip(
@@ -42,8 +44,8 @@ class YearDetail extends StatelessWidget {
                             label: Text(t),
                             onSelected: (b) {}))
                         .toList(),
-                  ),
-                  Text("ธาตุประจำปี",
+                  ),*/
+                /*  Text("ธาตุประจำปี",
                       style: TextStyle(fontWeight: FontWeight.bold)),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -74,7 +76,7 @@ class YearDetail extends StatelessWidget {
                                   onSelected: (b) {},
                                 ))
                             .toList(),
-                  )
+                  )*/
                 ],
               ),
             ),
@@ -97,10 +99,10 @@ class YearDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[50],
+      backgroundColor: Colors.purple[50],
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.purple[50],
+        backgroundColor: Colors.orange,
         title: Text(pokemon.name),
       ),
       body: bodyWidget(context),
