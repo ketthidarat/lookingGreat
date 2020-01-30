@@ -20,8 +20,8 @@ dependencies:
 flutter_icons:
   ios: true
   android: true
-  image_path_ios: "asset/images/tik1.png"
-  image_path_android: "asset/images/tik1.png"
+  image_path_ios: "asset/images/p1.jpg"
+  image_path_android: "asset/images/p1.jpg"
 
   cupertino_icons: ^0.1.2
 

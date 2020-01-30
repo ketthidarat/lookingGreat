@@ -19,7 +19,7 @@ class _SplashPageState extends State<SplashPage> {
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0 ,
             color: Colors.pink[300] ,fontStyle:FontStyle.italic),
         ),
-        image: Image.asset('asset/images/tik1.png'),
+        image: Image.asset('asset/images/s1.png'),
         backgroundColor: Colors.pink[100],
         styleTextUnderTheLoader: TextStyle(color: Colors.deepPurple),
         photoSize: 150.0,

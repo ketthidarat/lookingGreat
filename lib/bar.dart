@@ -57,6 +57,7 @@ class _BarNavyState extends State<BarNavy> {
             title: Text('Home'),
             icon: Icon(Icons.home)
           ),
+          
           BottomNavigationBarItem(
             title: Text('Coach'),
             icon: Icon(Icons.star)

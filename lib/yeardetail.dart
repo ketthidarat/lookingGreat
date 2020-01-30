@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'rasi.dart';
+import 'Year.dart';
 
 class YearDetail extends StatelessWidget {
   final Pokemon pokemon;
@@ -30,9 +31,10 @@ class YearDetail extends StatelessWidget {
                   ),*/
                   Text("${pokemon.height}"),
                   
-                  Text("${pokemon.type}"),
-                  Text("${pokemon.weaknesses}"),
+                  Text("เบอร์โทรติดต่อ : 086-000000000"),
+                  
                   Text("${pokemon.weight}"),
+                  Text("E-mail : panara@gmail.com"),
                    // "ปีสมพงศ์",
                     //style: TextStyle(fontWeight: FontWeight.bold),
                   //),

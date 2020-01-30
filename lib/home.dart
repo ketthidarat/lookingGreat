@@ -1,8 +1,19 @@
 import 'package:flutter/material.dart';
+import 'main.dart';
 
 class SignUpForm extends StatefulWidget {
   @override
   _SignUpFormState createState() => _SignUpFormState();
+   Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Looking Great',
+      theme: ThemeData(
+        primarySwatch: Colors.amber,
+        backgroundColor: Colors.purple[50],
+      ),
+    );
+  }
 }
 
 class _SignUpFormState extends State<SignUpForm> {  
@@ -38,8 +49,20 @@ class _SignUpFormState extends State<SignUpForm> {
   String _province;
   String _numbercar;
   
+  void onPressedSubmit() {
+      if (_formKey.currentState.validate() ) {
+        _formKey.currentState.save();
+
+       
+      
+      
+        Scaffold.of(context)
+            .showSnackBar(SnackBar(content: Text('Form Submitted')));
+      }
+    }
 
   void loadtype() {
+    
     typeList = [];
     typeList.add(new DropdownMenuItem(
       child: new Text('รูปร่าง'),
@@ -180,7 +203,7 @@ class _SignUpFormState extends State<SignUpForm> {
 
 
 
-  formWidget.add(new DropdownButton(
+  /*formWidget.add(new DropdownButton(
       hint: new Text('Select Gender'),
       items: typeList,
       value: _selectedGender,
@@ -214,7 +237,8 @@ class _SignUpFormState extends State<SignUpForm> {
         });
       },
       isExpanded: true,
-    ));
+    ));*/
+
 
   formWidget.add(new TextFormField(
       decoration: InputDecoration(hintText: 'ชื่อผู้ใช้งาน', labelText: 'ชื่อผู้ใช้งาน'),
@@ -265,8 +289,20 @@ class _SignUpFormState extends State<SignUpForm> {
         });
       },
     ));
+    formWidget.add(new TextFormField(
+      decoration: InputDecoration(hintText: 'รหัสไปรษณีย์', labelText: 'รหัสไปรษณีย์'),
+      keyboardType: TextInputType.text,
+      validator: (value) {
+        if (value.isEmpty) return 'รหัสไปรษณีย์';
+      },
+      onSaved: (value) {
+        setState(() {
+          _idme = value;
+        });
+      },
+    ));
 
-  formWidget.add(new DropdownButton(
+ /* formWidget.add(new DropdownButton(
       hint: new Text('Select Gender'),
       items: genderList2,
       value: _selectedGender,
@@ -276,69 +312,10 @@ class _SignUpFormState extends State<SignUpForm> {
         });
       },
       isExpanded: true,
-    ));
-    formWidget.add(new TextFormField(
-      decoration: InputDecoration(hintText: 'ชื่อผู้ใช้งาน', labelText: 'ชื่อผู้ใช้งาน'),
-      keyboardType: TextInputType.text,
-      validator: (value) {
-        if (value.isEmpty) return 'ชื่อผู้ใช้งาน';
-      },
-      onSaved: (value) {
-        setState(() {
-          _name2 = value;
-        });
-      },
-    ));
-
-  formWidget.add(new TextFormField(
-      decoration: InputDecoration(hintText: 'Email', labelText: 'Email'),
-      keyboardType: TextInputType.text,
-      validator: (value) {
-        if (value.isEmpty) return 'Email';
-      },
-      onSaved: (value) {
-        setState(() {
-          _lastname2 = value;
-        });
-      },
-    ));
-     formWidget.add(new TextFormField(
-      decoration: InputDecoration(hintText: 'ที่อยู่', labelText: 'ที่อยู่'),
-      keyboardType: TextInputType.text,
-      validator: (value) {
-        if (value.isEmpty) return 'ที่อยู่';
-      },
-      onSaved: (value) {
-        setState(() {
-          _address = value;
-        });
-      },
-    ));
-    formWidget.add(new TextFormField(
-      decoration: InputDecoration(hintText: 'รหัสไปรษณีย์', labelText: 'รหัสไปรษณีย์'),
-      keyboardType: TextInputType.text,
-      validator: (value) {
-        if (value.isEmpty) return 'รหัสไปรษณีย์';
-      },
-      onSaved: (value) {
-        setState(() {
-          _amphoe = value;
-        });
-      },
-    ));
+    ));*/
   
-  formWidget.add(new DropdownButton(
-      hint: new Text('Select Gender'),
-      items: typecarList,
-      value: _selectedGender,
-      onChanged: (value) {
-        setState(() {
-          _selectedGender = value;
-        });
-      },
-      isExpanded: true,
-    ));    
-    formWidget.add(CheckboxListTile(
+    
+    /*formWidget.add(CheckboxListTile(
       value: _termsChecked1,
       onChanged: (value) {
         setState(() {
@@ -351,20 +328,18 @@ class _SignUpFormState extends State<SignUpForm> {
       //         style: TextStyle(color: Colors.red, fontSize: 12.0),
       //       )
       //     : null,
-      title: new Text(
-        'ไม่สวมหมวกนิรภัย',
-      ),
-      controlAffinity: ListTileControlAffinity.leading,
-    ));
+      
+    ));*/
      formWidget.add(CheckboxListTile(
       value: _termsChecked2,
       onChanged: (value) {
         setState(() {
+          
           _termsChecked2 = value;
         });
       },
       title: new Text(
-        'ไม่ติดแผ่นป้ายทะเบียน',
+        'ชาย',
       ),
       controlAffinity: ListTileControlAffinity.leading,
     ));
@@ -376,86 +351,26 @@ class _SignUpFormState extends State<SignUpForm> {
         });
       },
       title: new Text(
-        'ใช้โทรศัพท์ระหว่างขับรถ',
+        'หญิง',
       ),
       controlAffinity: ListTileControlAffinity.leading,
     ));
-     formWidget.add(CheckboxListTile(
-      value: _termsChecked4,
-      onChanged: (value) {
+   
+    formWidget.add(new TextFormField(
+      decoration: InputDecoration(hintText: 'วัน/เดือน/ปีเกิด', labelText: 'วัน/เดือน/ปีเกิด'),
+      keyboardType: TextInputType.text,
+      validator: (value) {
+        if (value.isEmpty) return 'วัน/เดือน/ปีเกิด';
+      },
+      onSaved: (value) {
         setState(() {
-          _termsChecked4 = value;
+          _name1 = value;
         });
       },
-      title: new Text(
-        'ไม่คาดเข็มขัดนิรภัย',
-      ),
-      controlAffinity: ListTileControlAffinity.leading,
     ));
-     formWidget.add(CheckboxListTile(
-      value: _termsChecked5,
-      onChanged: (value) {
-        setState(() {
-          _termsChecked5 = value;
-        });
-      },
-      title: new Text(
-        'หยุดรถกีดขวางการจราจร',
-      ),
-      controlAffinity: ListTileControlAffinity.leading,
-    ));
-     formWidget.add(CheckboxListTile(
-      value: _termsChecked6,
-      onChanged: (value) {
-        setState(() {
-          _termsChecked6 = value;
-        });
-      },
-      title: new Text(
-        'จอดรถในที่ห้ามจอด',
-      ),
-      controlAffinity: ListTileControlAffinity.leading,
-    ));
-     formWidget.add(CheckboxListTile(
-      value: _termsChecked7,
-      onChanged: (value) {
-        setState(() {
-          _termsChecked7 = value;
-        });
-      },
-      title: new Text(
-        'ไม่มีใบอนุณาตขับขี่',
-      ),
-      controlAffinity: ListTileControlAffinity.leading,
-    ));
-     formWidget.add(CheckboxListTile(
-      value: _termsChecked8,
-      onChanged: (value) {
-        setState(() {
-          _termsChecked8 = value;
-        });
-      },
-      title: new Text(
-        'ฝ่าฝืนสัญญาณจราจร',
-      ),
-      controlAffinity: ListTileControlAffinity.leading,
-    ));
-     formWidget.add(CheckboxListTile(
-      value: _termsChecked9,
-      onChanged: (value) {
-        setState(() {
-          _termsChecked9 = value;
-        });
-      },
-      title: new Text(
-        'เมาแล้วขับ',
-      ),
-      controlAffinity: ListTileControlAffinity.leading,
-    ));
-
     formWidget.add(new DropdownButton(
       hint: new Text('Select Gender'),
-      items: priceList,
+      items: typeList,
       value: _selectedGender,
       onChanged: (value) {
         setState(() {
@@ -465,7 +380,27 @@ class _SignUpFormState extends State<SignUpForm> {
       isExpanded: true,
     ));
 
-    
+
+    formWidget.add(new DropdownButton(
+      hint: new Text('Select Gender'),
+      items: jaList,
+      value: _selectedGender,
+      onChanged: (value) {
+        setState(() {
+          _selectedGender = value;
+        });
+      },
+      isExpanded: true,
+    ));
+    //https://lookinggreat.pythonanywhere.com/media/${member.cover.name}
+
+    formWidget.add(new RaisedButton(
+        color: Colors.blue,
+        textColor: Colors.white,
+        child: new Text('Submit'),
+        onPressed: onPressedSubmit));
+
     return formWidget;
   }
+  
 }

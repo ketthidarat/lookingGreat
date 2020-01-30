@@ -38,7 +38,7 @@ class ZodiacPageState extends State<ZodiacPage> {
     return Scaffold(
       backgroundColor: Colors.purple[50],
       appBar: AppBar(
-        title: Text("Coach"),
+        title: Text("แนะนำเสื้อผ้า"),
         backgroundColor: Colors.orange,
       ),
       body: pokeHub == null
