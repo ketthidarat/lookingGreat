@@ -1,0 +1,301 @@
+{
+  "pokemon": [{
+    "id": 1,
+    "num": "001",
+    "name": "เสื้อยืดกางเกงขาสั้น",
+    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/liliana.png",
+    "type": [
+      "100.0 บาท"
+    ],
+    "height": "จากร้าน : เสื้อผ้าแฟชั่น",
+    "weight": "จำนวนสินค้าที่มี : 1 ตัว",
+    "candy": "Bulbasaur Candy",
+    "candy_count": 25,
+    "egg": "2 km",
+    "spawn_chance": 0.69,
+    "avg_spawns": 69,
+    "spawn_time": "20:00",
+    "multipliers": [1.58],
+    "weaknesses": [
+      "XXS"
+    ],
+    "next_evolution": [{
+      "num": "001",
+      "name": "สีแดง"
+    }]
+  }, {
+    "id": 2,
+    "num": "002",
+    "name": "เสื้อไหมพรม",
+    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/diao.png",
+    "type": [
+      "200.0 บาท"
+    ],
+    "height": "จากร้าน : เสื้อผ้าแฟชั่น",
+      "weight": "จำนวนสินค้าที่มี : 3 ตัว",
+    "candy": "Bulbasaur Candy",
+    "candy_count": 25,
+    "egg": "2 km",
+    "spawn_chance": 0.69,
+    "avg_spawns": 69,
+    "spawn_time": "20:00",
+    "multipliers": [1.58],
+    "weaknesses": [
+      "XS"
+    ],
+    "next_evolution": [{
+      "num": "002",
+      "name": "อื่นๆ"
+    }]
+  },{
+    "id": 3,
+    "num": "003",
+    "name": "กางเกงยีนขาดเข่า",
+    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/annette.png",
+    "type": [
+      "350.0 บาท"
+    ],
+    "height": "จากร้าน : เสื้อผ้าแฟชั่นเกาหลี",
+    "weight": "จำนวนสินค้าที่มี : 4 ตัว",
+    "candy": "Bulbasaur Candy",
+    "candy_count": 25,
+    "egg": "2 km",
+    "spawn_chance": 0.69,
+    "avg_spawns": 69,
+    "spawn_time": "20:00",
+    "multipliers": [1.58],
+    "weaknesses": [
+      "M"
+    ],
+    "next_evolution": [{
+      "num": "003",
+      "name": "สีน้ำเงิน"
+    }]
+  },{
+    "id": 4,
+    "num": "004",
+    "name": "กางเกงยีน",
+    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/illumia.png",
+    "type": [
+      "450.0 บาท"
+    ],
+    "height": "จากร้าน : เสื้อผ้าแฟชั่นญี่ปุ่น",
+    "weight": "จำนวนสินค้าที่มี : 9 ตัว",
+    "candy": "Bulbasaur Candy",
+    "candy_count": 25,
+    "egg": "2 km",
+    "spawn_chance": 0.69,
+    "avg_spawns": 69,
+    "spawn_time": "20:00",
+    "multipliers": [1.58],
+    "weaknesses": [
+      "L"
+    ],
+    "next_evolution": [{
+      "num": "004",
+      "name": "สีน้ำเงิน"
+    }]
+  },{
+    "id": 5,
+    "num": "005",
+    "name": "กระโปรงลายสก๊อต",
+    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/krixi.png",
+    "type": [
+      "260.0 บาท"
+    ],
+    "height": "จากร้าน : เสื้อผ้าแฟชั่นวาริน",
+    "weight": "จำนวนสินค้าที่มี : 6 ตัว",
+    "candy": "Bulbasaur Candy",
+    "candy_count": 25,
+    "egg": "2 km",
+    "spawn_chance": 0.69,
+    "avg_spawns": 69,
+    "spawn_time": "20:00",
+    "multipliers": [1.58],
+    "weaknesses": [
+      "XS"
+    ],
+    "next_evolution": [{
+      "num": "005",
+      "name": "สีดำ"
+    }]
+  },{
+    "id": 6,
+    "num": "006",
+    "name": "ชุดราตรีสีแดง",
+    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/natalya.png",
+    "type": [
+      "400.0 บาท"
+    ],
+    "height": "จากร้าน : เสื้อผ้าแฟชั่นวาริน",
+    "weight": "จำนวนสินค้าที่มี : 11 ตัว",
+    "candy": "Bulbasaur Candy",
+    "candy_count": 25,
+    "egg": "2 km",
+    "spawn_chance": 0.69,
+    "avg_spawns": 69,
+    "spawn_time": "20:00",
+    "multipliers": [1.58],
+    "weaknesses": [
+      "M"
+    ],
+    "next_evolution": [{
+      "num": "006",
+      "name": "สีขาว"
+    }]
+  },{
+    "id": 7,
+    "num": "007",
+    "name": "ชุดเดรส",
+
+    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/sephera.png",
+    "type": [
+      "500.0 บาท"
+    ],
+    "height": "จากร้าน : เสื้อผ้า",
+    "weight": "จำนวนสินค้าที่มี : 3 ตัว",
+    "candy": "Bulbasaur Candy",
+    "candy_count": 25,
+    "egg": "2 km",
+    "spawn_chance": 0.69,
+    "avg_spawns": 69,
+    "spawn_time": "20:00",
+    "multipliers": [1.58],
+    "weaknesses": [
+      "L"
+    ],
+    "next_evolution": [{
+      "num": "007",
+      "name": "สีเหลือง"
+    }]
+  },{
+    "id": 8,
+    "num": "008",
+    "name": "สูทดำ",
+    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/D'Arcy.png",
+    "type": [
+      "1000.0 บาท"
+    ],
+    "height": "จากร้าน : เสื้อผ้าแฟชั่นวาริน",
+    "weight": "จำนวนสินค้าที่มี : 7 ตัว",
+    "candy": "Bulbasaur Candy",
+    "candy_count": 25,
+    "egg": "2 km",
+    "spawn_chance": 0.69,
+    "avg_spawns": 69,
+    "spawn_time": "20:00",
+    "multipliers": [1.58],
+    "weaknesses": [
+      "XL"
+    ],
+    "next_evolution": [{
+      "num": "008",
+      "name": "สีดำ"
+    
+    }]
+  },{
+    "id": 9,
+    "num": "009",
+    "name": "สูทสีกรม",
+    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/Aleister.png",
+
+    "type": [
+      "1100.0 บาท"
+    ],
+    "height": "จากร้าน : เสื้อผ้าแฟชั่น",
+    "weight": "จำนวนสินค้าที่มี : 1 ตัว",
+    "candy": "Bulbasaur Candy",
+    "candy_count": 25,
+    "egg": "2 km",
+    "spawn_chance": 0.69,
+    "avg_spawns": 69,
+    "spawn_time": "20:00",
+    "multipliers": [1.58],
+    "weaknesses": [
+      "S"
+    ],
+    "next_evolution": [{
+      "num": "009",
+      "name": "สีน้ำเงิน"
+    }]
+  },{
+    "id": 10,
+    "num": "010",
+    "name": "Marja",
+    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/Preyta.png",
+    "type": [
+      "เมจ/แทงค์"
+    ],
+    "height": "The Ashe Weaver",
+    "weight": " Marja ฮีโร่เทพสาวสายแทงค์เมจ ผู้โดนพลังแห่งความมืดกลืนกิน มีจุดเด่นอยู่ที่เธอเป็นเมจที่ไม่ได้ใช้มานา อีกทั้ง Passive Skill ที่เมื่อเลือดเหลือน้อย เธอจะฟื้นฟูพลังชีวิตของจนเองตามจำนวนของดาเมจที่เธอได้รับ พร้อมกับลดความเร็วศัตรู รวมถึงพลัง Ultimate Skill ที่ทำให้เธอไม่ตกเป็นเป้าโจมตีเป็นเวลา 2.5 วิ ทำให้เคลื่อนที่ไวขึ้น รวมถึงยังสามารถโจมตีและใช้สกิลได้อีกด้วย",
+    "candy": "Bulbasaur Candy",
+    "candy_count": 25,
+    "egg": "2 km",
+    "spawn_chance": 0.69,
+    "avg_spawns": 69,
+    "spawn_time": "20:00",
+    "multipliers": [1.58],
+    "weaknesses": [
+      "Dark Pulse",
+      "Soul Devourer",
+      "Ghostwalk"   
+    ],
+    "next_evolution": [{
+      "num": "010",
+      "name": "ดูดเลือด"
+    }]
+  },{
+    "id": 11,
+    "num": "011",
+    "name": "Preyta",
+    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/Preyta.png",
+    "type": [
+      "เมจ"
+    ],
+    "height": "The Illest",
+    "weight": "Preyta ฮีโร่ผู้มีสกิลเวฟที่แรงแบบหน้าไหม้ พร้อมทั้งสกิลผลักที่ทำให้อีกฝ่ายหัวร้อน อีกทั้งยังเป็นฮีโร่ที่สปีดเคลื่อนที่ที่ไวเป็นอันดับต้นๆในเกม โดยเฉพาะหลังจากกดใช้สกิล Ultimate จะเพิ่มความเร็วเคลื่อนที่ ได้ทั้งไล่ได้ทั้งหนี และเมื่อใชดสกิล2 เอฟเฟคจากการผลักจะกลายเป็นสตั๊น เป็นตัวที่ป่วนทีมไฟต์สุดๆ",
+    "candy": "Bulbasaur Candy",
+    "candy_count": 25,
+    "egg": "2 km",
+    "spawn_chance": 0.69,
+    "avg_spawns": 69,
+    "spawn_time": "20:00",
+    "multipliers": [1.58],
+    "weaknesses": [
+      "Lethal Pethogen",
+      "Putrid Virus",
+      "Plague Tentacle"
+    ],
+    "next_evolution": [{
+      "num": "011",
+      "name": "ระยะไกล"
+    }]
+  },{
+    "id": 12,
+    "num": "012",
+    "name": "Tulen",
+    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/tulen.png",
+    "type": [
+      "เมจ"
+    ],
+    "height": "15 ม.ค. - 12 ก.พ.",
+    "weight": "Tulen อยู่ในตำแหน่งเมจ ที่มีพลังทำลายล้าง และ ความรวดเร็วสูง สามารถพุ่งเข้า ออกทีมไฟต์ได้ง่าย เพราะสกิล 2 ของเขา เก็บได้ถึง 3 ชาร์จเพื่อในงานต่อเนื่อง เท่ากับเขาสามารถแว้บไปแว้บมาหนี assassin ฝั่งตรงข้ามได้สบาย ไม่เป็นภาระเพื่อน แถมยังมีดาเมจที่สูง จากสกิล 1 ไม่ว่าจะใช้อัดหน้าหรือยิงสแปม ก็ทำได้ดี สิ่งที่ทำให้เขาโหดมากสุดๆตั้งแต่ช่วงต้นเกมเลยก็คือ พาสซีฟ ซึ่งมีดาเมจสูงและกว้างมากๆ สามารถใช้สายฟ้าฟาดโดนศัตรูอย่างง่ายดาย เพราะสกิลออโต้เล็งฮีโร่ก่อน เขาจึงเป็นเมจที่สามารถยินเลนไหนก็ได้ ไม่ว่าจะออฟเลน หรือเข้าป่า ",
+    "candy": "Bulbasaur Candy",
+    "candy_count": 25,
+    "egg": "2 km",
+    "spawn_chance": 0.69,
+    "avg_spawns": 69,
+    "spawn_time": "20:00",
+    "multipliers": [1.58],
+    "weaknesses": [
+      "Ion Prisms",
+      "Lightning Strike",
+      "Thunderbird"
+    ],
+    "next_evolution": [{
+      "num": "012",
+      "name": "ฟาร์ม ระยะไกล"
+    }]
+  }
+]
+}
