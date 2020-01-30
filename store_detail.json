@@ -2,13 +2,13 @@
     "pokemon": [{
       "id": 1,
       "num": "001",
-      "name": "เสื้อยืดกางเกงขาสั้น",
-      "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/liliana.png",
+      "name": "ชื่อร้าน : เสื้อผ้าแฟชั่น",
+      "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/s1.jpg",
       "type": [
-        "100.0 บาท"
+        "เบอร์โทรติดต่อ : 089-000000000"
       ],
-      "height": "จากร้าน : เสื้อผ้าแฟชั่น",
-      "weight": "จำนวนสินค้าที่มี : 1 ตัว",
+      "height": "ที่อยู่ร้าน : 55/555 xxxxxxxxxx",
+      "weight": "Facebook : เสื้อผ้าแฟชั่น",
       "candy": "Bulbasaur Candy",
       "candy_count": 25,
       "egg": "2 km",
@@ -17,7 +17,7 @@
       "spawn_time": "20:00",
       "multipliers": [1.58],
       "weaknesses": [
-        "XXS"
+        "E-mail : panara@gmail.com"
       ],
       "next_evolution": [{
         "num": "001",
@@ -26,13 +26,13 @@
     }, {
       "id": 2,
       "num": "002",
-      "name": "เสื้อไหมพรม",
-      "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/diao.png",
+      "name": "ชื่อร้าน : เสื้อผ้าแฟชั่นวาริน",
+      "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/s2.jpg",
       "type": [
-        "200.0 บาท"
+        "เบอร์โทรติดต่อ : 086-000000000"
       ],
-      "height": "จากร้าน : เสื้อผ้าแฟชั่น",
-        "weight": "จำนวนสินค้าที่มี : 3 ตัว",
+      "height": "ที่อยู่ร้าน : 66/666 xxxxxxxxxx",
+        "weight": "Facebook : เสื้อผ้าแฟชั่นวาริน",
       "candy": "Bulbasaur Candy",
       "candy_count": 25,
       "egg": "2 km",
@@ -41,7 +41,7 @@
       "spawn_time": "20:00",
       "multipliers": [1.58],
       "weaknesses": [
-        "XS"
+        "E-mail : panara@gmail.com"
       ],
       "next_evolution": [{
         "num": "002",
@@ -50,12 +50,12 @@
     },{
       "id": 3,
       "num": "003",
-      "name": "กางเกงยีนขาดเข่า",
-      "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/annette.png",
+      "name": "ชื่อร้าน : เสื้อผ้าแฟชั่นเกาหลี",
+      "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/s3.jpg",
       "type": [
         "350.0 บาท"
       ],
-      "height": "จากร้าน : เสื้อผ้าแฟชั่นเกาหลี",
+      "height": "ที่อยู่ร้าน : 77/777 xxxxxxxxxx",
       "weight": "จำนวนสินค้าที่มี : 4 ตัว",
       "candy": "Bulbasaur Candy",
       "candy_count": 25,
@@ -74,8 +74,8 @@
     },{
       "id": 4,
       "num": "004",
-      "name": "กางเกงยีน",
-      "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/illumia.png",
+      "name": "ชื่อร้าน : เสื้อผ้าแฟชั่นญี่ปุ่น",
+      "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/s4.jpg",
       "type": [
         "450.0 บาท"
       ],
@@ -98,13 +98,13 @@
     },{
       "id": 5,
       "num": "005",
-      "name": "กระโปรงลายสก๊อต",
-      "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/krixi.png",
+      "name": "ชื่อร้าน : เสื้อผ้า",
+      "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/s5.jpg",
       "type": [
-        "260.0 บาท"
+        "เบอร์โทรติดต่อ : 089-000000000"
       ],
       "height": "จากร้าน : เสื้อผ้าแฟชั่นวาริน",
-      "weight": "จำนวนสินค้าที่มี : 6 ตัว",
+      "weight": "Facebook : เสื้อผ้าแฟชั่นเกาหลี",
       "candy": "Bulbasaur Candy",
       "candy_count": 25,
       "egg": "2 km",
@@ -113,7 +113,7 @@
       "spawn_time": "20:00",
       "multipliers": [1.58],
       "weaknesses": [
-        "XS"
+        "E-mail : panara@gmail.com"
       ],
       "next_evolution": [{
         "num": "005",
@@ -122,13 +122,13 @@
     },{
       "id": 6,
       "num": "006",
-      "name": "ชุดราตรีสีแดง",
-      "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/natalya.png",
+      "name": "ชื่อร้าน : เสื้อผ้าแฟชั่นญี่ปุ่น",
+      "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/p6.jpg",
       "type": [
-        "400.0 บาท"
+        "เบอร์โทรติดต่อ : 089-000000000"
       ],
-      "height": "จากร้าน : เสื้อผ้าแฟชั่นวาริน",
-      "weight": "จำนวนสินค้าที่มี : 11 ตัว",
+      "height": "ที่อยู่ร้าน : 88/888 xxxxxxxxxx",
+      "weight": "Facebook : เสื้อผ้าแฟชั่นญี่ปุ่น",
       "candy": "Bulbasaur Candy",
       "candy_count": 25,
       "egg": "2 km",
@@ -137,7 +137,7 @@
       "spawn_time": "20:00",
       "multipliers": [1.58],
       "weaknesses": [
-        "M"
+        "E-mail : panara@gmail.com"
       ],
       "next_evolution": [{
         "num": "006",
@@ -146,9 +146,9 @@
     },{
       "id": 7,
       "num": "007",
-      "name": "ชุดเดรส",
+      "name": "ชื่อร้าน : เสื้อผ้า",
   
-      "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/sephera.png",
+      "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/p7.jpg",
       "type": [
         "500.0 บาท"
       ],
@@ -172,7 +172,7 @@
       "id": 8,
       "num": "008",
       "name": "สูทดำ",
-      "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/D'Arcy.png",
+      "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/p8.jpg",
       "type": [
         "1000.0 บาท"
       ],
@@ -197,7 +197,7 @@
       "id": 9,
       "num": "009",
       "name": "สูทสีกรม",
-      "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/Aleister.png",
+      "img": "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/asset/images/p9.jpg",
   
       "type": [
         "1100.0 บาท"

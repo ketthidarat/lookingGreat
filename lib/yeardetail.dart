@@ -21,18 +21,18 @@ class YearDetail extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   SizedBox(
-                    height: 70.0,
+                    height: 100.0,
                   ),
                   Text(
                     pokemon.name,
                     style:
                         TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
                   ),
-                  Text("👉 ${pokemon.height}"),
-                  Text("....${pokemon.weight}...."),
+                  Text("${pokemon.height}"),
+                  Text("${pokemon.weight}"),
                   Text(
                     "ปีสมพงศ์",
-                    style: TextStyle(fontWeight: FontWeight.bold),
+                    //style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -97,10 +97,10 @@ class YearDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red[300],
+      backgroundColor: Colors.blue[50],
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.red[300],
+        backgroundColor: Colors.purple[50],
         title: Text(pokemon.name),
       ),
       body: bodyWidget(context),

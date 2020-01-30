@@ -21,96 +21,47 @@ class PokeDetail extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   SizedBox(
-                    height: 70.0,
+                    height: 100.0,
                   ),
-                  Text(
-                    pokemon.name,
-                    style:
-                        TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
-                  ),
+                  //Text(
+                    //pokemon.name,
+                   // style:
+                     //   TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
+                 // ),
                   Text("${pokemon.height}"),
+                  //Text("${pokemon.weight}"),
+                  Text("ราคา: 100"),
+                  Text("ขนาดสินค้า : XSS"),
+                  Text("สีสินค้า : สีแดง"),
+                   //Text("จำนวนสินค้าที่มี"+ "${pokemon.nextEvolution}"),
                   Text("${pokemon.weight}"),
-                  Text(
-                    "ราคา",
-                    style: TextStyle(fontWeight: FontWeight.bold),
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: pokemon.type
-                        .map((t) => FilterChip(
-                            backgroundColor: Colors.pink[50],
-                            label: Text(t),
-                            onSelected: (b) {}))
-                        .toList(),
-                  ),
-                  Text("ขนาดสินค้า",
+                  Text("จำนวนสินค้าที่ต้องการซื้อ",
                       style: TextStyle(fontWeight: FontWeight.bold)),
+               TextField(
+  decoration: InputDecoration(
+    border: OutlineInputBorder()
+  )
+),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: pokemon.weaknesses
-                        .map((t) => FilterChip(
-                            backgroundColor: Colors.red,
-                            label: Text(
-                              t,
-                            ),
-                            onSelected: (b) {}))
-                        .toList(),
-                  ),
-                  Text("สีสินค้า",
-                      style: TextStyle(fontWeight: FontWeight.bold)),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: pokemon.nextEvolution == null
-                        ? <Widget>[Text("This is the final form")]
-                        : pokemon.nextEvolution
                             .map((n) => FilterChip(
-                                  backgroundColor: Colors.green,
+                                  backgroundColor: Colors.red,
                                   label: Text(
-                                    n.name,
-                                   
+                                    "สั่งซื้อสินค้า",
+                                    style: TextStyle(color: Colors.white),
                                   ),
+                                  
                                   onSelected: (b) {},
                                 ))
+                                
                             .toList(),
-                  ),
-                   Text("จำนวนสินค้าที่มี",
-                      style: TextStyle(fontWeight: FontWeight.bold)),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: pokemon.nextEvolution == null
-                        ? <Widget>[Text("This is the final form")]
-                        : pokemon.nextEvolution
-                            .map((n) => FilterChip(
-                                  backgroundColor: Colors.green,
-                                  label: Text(
-                                    n.name,
-                                   
-                                  ),
-                                  onSelected: (b) {},
-                                ))
-                            .toList(),
-                  ),
-                  Text("จำนวนสินค้าที่ต้องการสั่งซื้อ",
-                      style: TextStyle(fontWeight: FontWeight.bold)),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: pokemon.nextEvolution == null
-                        ? <Widget>[Text("This is the final form")]
-                        : pokemon.nextEvolution
-                            .map((n) => FilterChip(
-                                  backgroundColor: Colors.green,
-                                  label: Text(
-                                    n.name,
-                                   
-                                  ),
-                                  onSelected: (b) {},
-                                ))
-                            .toList(),
-                  ),
+                  )
                 ],
               ),
             ),
           ),
+      
           Align(
             alignment: Alignment.topCenter,
             child: Hero(
@@ -123,16 +74,17 @@ class PokeDetail extends StatelessWidget {
                           fit: BoxFit.cover, image: NetworkImage(pokemon.img))),
                 )),
           )
+          
         ],
       );
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[50],
+      backgroundColor: Colors.purple[50],
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.purple[50],
+        backgroundColor: Colors.orange,
         title: Text(pokemon.name),
       ),
       body: bodyWidget(context),
