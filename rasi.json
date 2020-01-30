@@ -3,7 +3,7 @@
     "id": 1,
     "num": "001",
     "name": "เสื้อยืดกางเกงขาสั้น",
-    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/liliana.png",
+    "img": "https://github.com/ketthidarat/lookingGreat/blob/master/asset/images/liliana.png",
     "type": [
       "100.0 บาท"
     ],
@@ -27,7 +27,7 @@
     "id": 2,
     "num": "002",
     "name": "เสื้อไหมพรม",
-    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/diao.png",
+    "img": "https://github.com/ketthidarat/lookingGreat/blob/master/asset/images/diao.png",
     "type": [
       "200.0 บาท"
     ],
@@ -51,7 +51,7 @@
     "id": 3,
     "num": "003",
     "name": "กางเกงยีนขาดเข่า",
-    "img": "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/annette.png",
+    "img": "https://github.com/ketthidarat/lookingGreat/blob/master/asset/images/annette.png",
     "type": [
       "350.0 บาท"
     ],

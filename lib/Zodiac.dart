@@ -13,7 +13,7 @@ class ZodiacPage extends StatefulWidget {
 
 class ZodiacPageState extends State<ZodiacPage> {
   var url =
-      "https://raw.githubusercontent.com/ketthidarat/flutterProject/master/rasi.json";
+      "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/rasi.json";
 
   PokeHub pokeHub;
 
@@ -33,13 +33,12 @@ class ZodiacPageState extends State<ZodiacPage> {
   }
 
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.orange[400],
+      backgroundColor: Colors.purple[50],
       appBar: AppBar(
-        title: Text("Mage"),
+        title: Text("Coach"),
         backgroundColor: Colors.orange,
       ),
       body: pokeHub == null
@@ -87,7 +86,7 @@ class ZodiacPageState extends State<ZodiacPage> {
                                   )
                                 ],
                               ),
-                              color: Colors.orange[300],
+                              color: Colors.pink[50],
                             ),
                           ),
                         ),
