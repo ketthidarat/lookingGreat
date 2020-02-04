@@ -4,14 +4,14 @@ import 'package:http/http.dart' as http;
 import 'rasi.dart';
 import 'rasidetail.dart';
 
-class ZodiacPage extends StatefulWidget {
+class RecommandPage extends StatefulWidget {
   @override
-  ZodiacPageState createState() {
-    return new ZodiacPageState();
+  RecommandPageState createState() {
+    return new RecommandPageState();
   }
 }
 
-class ZodiacPageState extends State<ZodiacPage> {
+class RecommandPageState extends State<RecommandPage> {
   var url =
       "https://raw.githubusercontent.com/ketthidarat/lookingGreat/master/rasi.json";
 

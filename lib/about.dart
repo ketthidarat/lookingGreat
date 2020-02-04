@@ -18,7 +18,7 @@ class AboutMePageState extends State<AboutMePage> {
     return Scaffold(
       backgroundColor: Colors.pink[400],
         appBar: AppBar(
-        title: Text("animation"),
+        title: Text("แนะนำสินค้า"),
         backgroundColor: Colors.redAccent,
       ),body: Center(
           child: AnimatedContainer(              // เพิ่ม 

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'rasi.dart';
 
-class PokeDetail extends StatelessWidget {
+class RecomandDetail extends StatelessWidget {
   final Pokemon pokemon;
 
-  PokeDetail({this.pokemon});
+  RecomandDetail({this.pokemon});
 
   bodyWidget(BuildContext context) => Stack(
         children: <Widget>[

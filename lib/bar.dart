@@ -1,6 +1,7 @@
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterProject/home.dart';
+import 'package:flutterProject/recommand.dart';
 
 import 'Zodiac.dart';
 import 'about.dart';
@@ -19,7 +20,7 @@ class _BarNavyState extends State<BarNavy> {
     SignUpForm(),
     ZodiacPage(),
     YearPage(),
-    AboutMePage()
+    RecommandPage()
   ];
   PageController _pageController;
   void onTappedBar(int index){
@@ -57,7 +58,6 @@ class _BarNavyState extends State<BarNavy> {
             title: Text('Home'),
             icon: Icon(Icons.home)
           ),
-          
           BottomNavigationBarItem(
             title: Text('Coach'),
             icon: Icon(Icons.star)
